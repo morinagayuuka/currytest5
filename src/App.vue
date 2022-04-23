@@ -1,5 +1,5 @@
 <template>
-  <img alt="Vue logo" src="./assets/coffeegirl.png">
+  <img class="girlImg" alt="Vue logo" src="./assets/coffeegirl.png">
   <HelloWorld msg="coffee"/>
 </template>
 
@@ -23,4 +23,16 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
+.girlImg{
+  width:80%;
+  height:auto;}
+
+
+@media screen and (max-width: 481px) {
+
+.girlImg{
+  width:100%;
+  height:auto;}
+}
+
 </style>
